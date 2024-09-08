@@ -1,0 +1,132 @@
+#header,#banner,#service,#footer,#testimonials,#news{
+    background-color: black;
+}
+#header,#service,#testimonials,#news{
+     border-bottom: 1px solid white; 
+}
+#logoheader{
+    color: #ffffff;
+    padding : 6px;
+
+}
+#menu li{
+    display: inline-block;
+    padding-top: 95px;
+    margin : 8px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#menu a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 6px;
+    margin: 0px;
+}
+#banner{
+    background-image: url(/project-1/images/banner-car.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 360px;
+    border-bottom: 1px solid white; 
+    transition: transform 0.8s;
+}
+#banner:hover{
+    transform: scale(1.1);
+    
+}
+.banner-tittle h4,p{
+    color: white;
+    padding: 12px;
+    margin: 0px;
+
+}
+.bi{
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+
+.col-md-12 h1{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+.col-md-12 h1::after{
+    background: white;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 20px auto;
+}
+.col-md-4 h2,h6{
+    color: white;
+    text-align: center;
+    padding: 12px;
+    margin: 0px;
+}
+#testimonails{
+    background-image: url(/project-1/images/testimonials.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px 0;
+    position: relative;
+}
+
+.same-size{
+    width: 200px;
+}
+.author,.author-company{
+    color: white;
+    padding-bottom: 8px;
+
+}
+
+.post-date{
+    color: white;
+    padding: 6px;
+}
+.col-md-4 h5{
+    color: white;
+}
+.col-md-4 a{
+    text-decoration: none;
+}
+.calender{
+    color: white;
+    font-size: 0.9rem;
+    margin-right: 10px;
+}
+.bi-arrow-bar-right{
+    color: white;
+    font-size: 0.9rem;
+    margin-left: 10px; 
+}
+#footer{
+    color: white;
+    padding-top: 20px;
+}
+#footer h4{
+    text-align: center;
+}
+#footer-widger h4::after{
+    background: white;
+    content: "";
+    display: block;
+    width: "50px";
+    height: "3px";
+    margin: 20px auto;
+
+}
+#social-icons li{
+    display: inline-block;
+    margin: 10px;
+    font-size: 0.8rem;
+}
